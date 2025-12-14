@@ -9,7 +9,7 @@ from heuristics import check_winner, h1, h2
 
 # Color scheme
 COLORS = {
-    'bg': '#1a1a2e',
+    'bg': "#050505",
     'grid_bg': '#16213e',
     'cell_bg': '#0f3460',
     'cell_hover': '#1a4a7a',

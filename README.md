@@ -118,3 +118,63 @@ A virtual environment is configured in the parent directory (`.venv`).
 ## License
 
 This project is for educational purposes. Feel free to modify and extend.
+
+## 📋 Informations de Soumission (TP)
+
+### Binôme
+- **Nom** : Mathlouthi
+- **Prénom** : Yassine
+- **CIN** : [À remplacer dans rapport.tex]
+
+### Archive à Déposer
+Nom de l'archive : `Mathlouthi.zip`
+
+Contenu obligatoire de l'archive :
+```
+Mathlouthi.zip
+├── main.py              # Interface graphique (commentée)
+├── minmax.py            # Algorithmes Min-Max et Alpha-Beta (commentés)
+├── heuristics.py        # Fonctions heuristiques (commentées)
+├── analysis.py          # Analyse des performances (commentée)
+├── rapport.pdf          # Rapport compilé (OBLIGATOIRE)
+├── rapport.tex          # Source LaTeX du rapport
+├── rapport.md           # Version Markdown du rapport
+├── README.md            # Ce fichier
+├── requirements.txt     # Dépendances
+├── create_archive.ps1   # Script de création d'archive
+└── captures_ecran/      # Captures d'écran (OBLIGATOIRES)
+    ├── interface_principale.png
+    ├── analyse_resultats.png
+    ├── jeu_en_cours.png
+    └── analyse_detaillee.png
+```
+
+### Instructions de Soumission
+1. **Remplacer le CIN** dans `rapport.tex` (ligne 25)
+2. **Compiler le rapport** : `pdflatex rapport.tex` → génère `rapport.pdf`
+3. **Ajouter les captures d'écran** dans le dossier `captures_ecran/`
+4. **Créer l'archive** : Exécuter `.\create_archive.ps1`
+5. **Déposer sur Classroom** : Un seul dépôt par binôme
+6. **Version papier** : Imprimer `rapport.pdf` pour la soutenance technique
+
+### Script Automatique de Création d'Archive
+```powershell
+# Exécuter dans PowerShell depuis le dossier tic_tac_toe
+.\create_archive.ps1
+```
+
+Ce script :
+- Vérifie la présence de tous les fichiers requis
+- Crée automatiquement l'archive `Mathlouthi.zip`
+- Affiche un résumé du contenu
+
+### Points Importants
+- ✅ **Code commenté** : Tous les fichiers Python sont documentés
+- ✅ **Rapport justifié** : Explications claires et captures d'écran
+- ✅ **Structure respectée** : Archive correctement nommée
+- ✅ **Version papier** : Rapport PDF à imprimer
+
+---
+
+**Projet réalisé dans le cadre du cours d'Intelligence Artificielle**
+*Département Informatique - Décembre 2025*
